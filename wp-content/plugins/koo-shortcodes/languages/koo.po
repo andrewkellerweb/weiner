@@ -1,0 +1,425 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Koo Shortcodes 0.1\n"
+"POT-Creation-Date: 2012-12-04 21:26+0700\n"
+"PO-Revision-Date: 2012-12-04 21:28+0700\n"
+"Last-Translator: M.Satrya <asksatrya@gmail.com>\n"
+"Language-Team: Tokokoo <satrya@tokokoo.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: shortcodes.php:158
+msgid "Title goes here"
+msgstr ""
+
+#: shortcodes.php:202
+msgid "Tab"
+msgstr ""
+
+#: shortcodes.php:229
+msgid "This is box title"
+msgstr ""
+
+#: shortcodes.php:249 config.php:122 config.php:160 config.php:284
+#: config.php:314
+msgid "Title"
+msgstr ""
+
+#: config.php:13
+msgid "Button URL"
+msgstr ""
+
+#: config.php:14
+msgid "Add the button's url eg http://example.com"
+msgstr ""
+
+#: config.php:19
+msgid "Button Color"
+msgstr ""
+
+#: config.php:20
+msgid "Select the button color"
+msgstr ""
+
+#: config.php:22 config.php:90 config.php:273
+msgid "White"
+msgstr ""
+
+#: config.php:23 config.php:95 config.php:244 config.php:279
+msgid "Blue"
+msgstr ""
+
+#: config.php:24 config.php:274
+msgid "Black"
+msgstr ""
+
+#: config.php:25 config.php:94 config.php:246 config.php:278
+msgid "Green"
+msgstr ""
+
+#: config.php:26
+msgid "Light Blue"
+msgstr ""
+
+#: config.php:27
+msgid "Pink"
+msgstr ""
+
+#: config.php:28 config.php:92 config.php:245 config.php:276
+msgid "Red"
+msgstr ""
+
+#: config.php:29 config.php:280
+msgid "Orange"
+msgstr ""
+
+#: config.php:30
+msgid "Purple"
+msgstr ""
+
+#: config.php:31 config.php:91 config.php:275
+msgid "Grey"
+msgstr ""
+
+#: config.php:37
+msgid "Button Size"
+msgstr ""
+
+#: config.php:38
+msgid "Select the button size"
+msgstr ""
+
+#: config.php:40
+msgid "Small"
+msgstr ""
+
+#: config.php:41
+msgid "Medium"
+msgstr ""
+
+#: config.php:42
+msgid "Large"
+msgstr ""
+
+#: config.php:48
+msgid "Button Type"
+msgstr ""
+
+#: config.php:49
+msgid "Select the button type"
+msgstr ""
+
+#: config.php:51
+msgid "Square"
+msgstr ""
+
+#: config.php:52
+msgid "Round"
+msgstr ""
+
+#: config.php:58
+msgid "Button Target"
+msgstr ""
+
+#: config.php:59
+msgid "_self = open in same window. _blank = open in new window"
+msgstr ""
+
+#: config.php:67 config.php:69
+msgid "Button Text"
+msgstr ""
+
+#: config.php:70
+msgid "Add the button text"
+msgstr ""
+
+#: config.php:75
+msgid "Insert Button Shortcode"
+msgstr ""
+
+#: config.php:87
+msgid "Alert Color"
+msgstr ""
+
+#: config.php:88
+msgid "Select the alert color"
+msgstr ""
+
+#: config.php:93 config.php:243 config.php:277
+msgid "Yellow"
+msgstr ""
+
+#: config.php:100
+msgid "Your Alert!"
+msgstr ""
+
+#: config.php:102
+msgid "Alert Text"
+msgstr ""
+
+#: config.php:103
+msgid "Add the alert text"
+msgstr ""
+
+#: config.php:108
+msgid "Insert Alert Shortcode"
+msgstr ""
+
+#: config.php:120
+msgid "Toggle Content Title"
+msgstr ""
+
+#: config.php:121
+msgid "Add the title that will go above the toggle content"
+msgstr ""
+
+#: config.php:126
+msgid "Content"
+msgstr ""
+
+#: config.php:128
+msgid "Toggle Content"
+msgstr ""
+
+#: config.php:129
+msgid "Add the toggle content. Will accept HTML"
+msgstr ""
+
+#: config.php:134
+msgid "Toggle State"
+msgstr ""
+
+#: config.php:135
+msgid "Select the state of the toggle on page load"
+msgstr ""
+
+#: config.php:137
+msgid "Open"
+msgstr ""
+
+#: config.php:138
+msgid "Closed"
+msgstr ""
+
+#: config.php:144
+msgid "Insert Toggle Content Shortcode"
+msgstr ""
+
+#: config.php:155
+msgid "Insert Tab Shortcode"
+msgstr ""
+
+#: config.php:162
+msgid "Tab Title"
+msgstr ""
+
+#: config.php:163
+msgid "Title of the tab"
+msgstr ""
+
+#: config.php:167 config.php:169
+msgid "Tab Content"
+msgstr ""
+
+#: config.php:170
+msgid "Add the tabs content"
+msgstr ""
+
+#: config.php:174
+msgid "Add Tab Shortcode"
+msgstr ""
+
+#: config.php:185
+msgid "Insert Columns Shortcode"
+msgstr ""
+
+#: config.php:193
+msgid "Column Type"
+msgstr ""
+
+#: config.php:194
+msgid "Select the width of the column."
+msgstr ""
+
+#: config.php:196
+msgid "One Third"
+msgstr ""
+
+#: config.php:197
+msgid "One Third Last"
+msgstr ""
+
+#: config.php:198
+msgid "Two Thirds"
+msgstr ""
+
+#: config.php:199
+msgid "Two Thirds Last"
+msgstr ""
+
+#: config.php:200
+msgid "One Half"
+msgstr ""
+
+#: config.php:201
+msgid "One Half Last"
+msgstr ""
+
+#: config.php:202
+msgid "One Fourth"
+msgstr ""
+
+#: config.php:203
+msgid "One Fourth Last"
+msgstr ""
+
+#: config.php:204
+msgid "Three Fourth"
+msgstr ""
+
+#: config.php:205
+msgid "Three Fourth Last"
+msgstr ""
+
+#: config.php:206
+msgid "One Fifth"
+msgstr ""
+
+#: config.php:207
+msgid "One Fifth Last"
+msgstr ""
+
+#: config.php:208
+msgid "Two Fifth"
+msgstr ""
+
+#: config.php:209
+msgid "Two Fifth Last"
+msgstr ""
+
+#: config.php:210
+msgid "Three Fifth"
+msgstr ""
+
+#: config.php:211
+msgid "Three Fifth Last"
+msgstr ""
+
+#: config.php:212
+msgid "Four Fifth"
+msgstr ""
+
+#: config.php:213
+msgid "Four Fifth Last"
+msgstr ""
+
+#: config.php:214
+msgid "One Sixth"
+msgstr ""
+
+#: config.php:215
+msgid "One Sixth Last"
+msgstr ""
+
+#: config.php:216
+msgid "Five Sixth"
+msgstr ""
+
+#: config.php:217
+msgid "Five Sixth Last"
+msgstr ""
+
+#: config.php:223
+msgid "Column Content"
+msgstr ""
+
+#: config.php:224
+msgid "Add the column content."
+msgstr ""
+
+#: config.php:228
+msgid "Add Column Shortcode"
+msgstr ""
+
+#: config.php:240
+msgid "Highlight Color"
+msgstr ""
+
+#: config.php:241
+msgid "Select the highlight color"
+msgstr ""
+
+#: config.php:250
+msgid "Highlighted Text"
+msgstr ""
+
+#: config.php:252
+msgid "Highlight Text"
+msgstr ""
+
+#: config.php:253
+msgid "Add the highlight's text"
+msgstr ""
+
+#: config.php:258
+msgid "Insert Highlight Shortcode"
+msgstr ""
+
+#: config.php:270
+msgid "Box Color"
+msgstr ""
+
+#: config.php:271
+msgid "Select the boxes color"
+msgstr ""
+
+#: config.php:286
+msgid "Box Title"
+msgstr ""
+
+#: config.php:287
+msgid "The box title"
+msgstr ""
+
+#: config.php:290
+msgid "Your Box Content!"
+msgstr ""
+
+#: config.php:292
+msgid "Box Content"
+msgstr ""
+
+#: config.php:293
+msgid "Add the box content"
+msgstr ""
+
+#: config.php:298
+msgid "Insert Box Shortcode"
+msgstr ""
+
+#: config.php:309
+msgid "Insert Accordion Shortcode"
+msgstr ""
+
+#: config.php:316
+msgid "Accordion Title"
+msgstr ""
+
+#: config.php:317
+msgid "Title of the accordion"
+msgstr ""
+
+#: config.php:320 config.php:322
+msgid "Accordion Content"
+msgstr ""
+
+#: config.php:323
+msgid "Add the accordions content"
+msgstr ""
+
+#: config.php:327
+msgid "Add Accordion Shortcode"
+msgstr ""

@@ -1,0 +1,46 @@
+<article id="post-<?php the_ID(); ?>" class="<?php hybrid_entry_class('blogpost'); ?>">
+
+	<div class="entry-wrapper">
+
+		<?php if ( is_singular( get_post_type() ) ) { ?>
+
+			<header class="entry-header">
+				<?php echo apply_atomic_shortcode( 'entry_terms',  '[entry-terms taxonomy="category"]' ); ?>
+				<?php echo apply_atomic_shortcode( 'entry_title', '[entry-title]' );  ?>
+			</header><!-- .entry-header -->
+
+			<div class="entry-data">
+				<?php echo apply_atomic_shortcode( 'entry_meta', '<div class="entry-meta">' . 
+					__( '[entry-published before="<span class=\'post-date\'>" after="</span>"] [entry-comments-link before="<span class=\'comment-link\'>" after="</span>"] [entry-author] [entry-terms before="Tags: "]', 'raakbookoo' ) . '</div>' ); ?>
+				<?php tokokoo_post_author(); ?>
+			</div>
+
+			<div class="entry-content">
+				<div class="entry-summary">
+					<?php the_content(); ?>
+				</div><!-- .entry-summary -->
+				<?php wp_link_pages( array( 'before' => '<p class="page-links">' . __( 'Pages:', 'raakbookoo' ), 'after' => '</p>' ) ); ?>
+				<?php tokokoo_share_buttons(); ?>
+			</div><!-- .entry-content -->
+
+		<?php } else { ?>
+
+			<div class="entry-content">
+	
+				<header class="entry-header">
+					<?php the_title( '<h2 class="post-title entry-title"><a href="' . hybrid_get_the_post_format_url() . '" title="' . the_title_attribute( array( 'echo' => false ) ) . '">', ' <span class="meta-nav">&rarr;</span></a></h2>' ); ?>
+					<?php echo apply_atomic_shortcode( 'entry_meta', '<div class="entry-meta">' . __( '[entry-published] [entry-comments-link before="| "] [entry-author before="| "] [entry-terms before="| Tags:"] [entry-terms taxonomy="category" before="| Posted in:"]', 'raakbookoo' ) . '</div>' ); ?>
+				</header><!-- .entry-header -->
+
+				<div class="entry-summary">
+					<?php the_content(); ?>
+					<?php wp_link_pages( array( 'before' => '<p class="page-links">' . __( 'Pages:', 'raakbookoo' ), 'after' => '</p>' ) ); ?>
+				</div><!-- .entry-summary -->
+
+			</div><!-- .entry-content -->
+
+		<?php } ?>
+
+	</div><!-- .entry-container -->
+
+</article><!-- #article-<?php the_ID(); ?> -->

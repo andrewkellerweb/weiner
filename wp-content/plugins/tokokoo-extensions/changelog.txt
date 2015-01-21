@@ -1,0 +1,12 @@
+1.0.2 - Xxx xx, 2013
+* Add 'author' and 'comments' support for Video post type
+* Update post type event
+* Update post type features
+* Update post type testimonials
+
+1.0.1 - Aug 25, 2013
+* Update ACF
+* Moved addons to plugin
+
+1.0 - July 26, 2013
+* Released

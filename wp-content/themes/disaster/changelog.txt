@@ -1,0 +1,41 @@
+1.3 - 11-02-2014
+- Fully Supported to wordpress 23.8
+- Supported to woocommerce 2.1
+- Add Style Switcher Control in theme options
+- Fix missing child theme functions
+- Update Woocommerce Catalog Mode by Xtensionpress to the latest version
+
+1.2.2 - 24-01-2014
+- Fix dropdown filter search (Category and Author) after submit
+- Fix preview and download buttons on Single Product
+- Fix Sale Flash on Shop page
+- Fix Catalog Ordering
+- Add element controller in theme options to set theme as regular shop
+
+1.2.1 - 20-01-2014
+- Improve theme customizer
+- Fix box layout issue
+- Change text domain
+- Fix Revolution slider path in TGM
+
+1.2 - 15-01-2014
+- Add Frontend Style Switcher 
+- Animate homepage
+- Add theme customizer
+
+1.1.3 - 08-01-2014
+- Validate HTML
+- Add features settings front
+
+1.1.2 - 04-01-2014
+- Fix wrong plugin slug
+
+1.1.1 - 05-12-2013
+- Update revoslider version to 4.1
+- Update tokokoo-extension to the latest version
+
+1.1 - 18-11-2013
+- Responsive ipad & iphone
+
+1.0
+- Initial released
